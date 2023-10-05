@@ -49,3 +49,32 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.my-projects .header-of-content {
+  line-height: 15;
+}
+
+.my-projects img {
+  width: 560px;
+  height: 560px;
+  width: auto;
+}
+
+.my-projects h2 {
+  font-size: 64px;
+  line-height: 200px;
+}
+.my-projects .content {
+  margin: 20px 80px;
+  padding: 1000 514px;
+}
+.my-projects a {
+  color: var(--branding-color);
+  border-color: var(--branding-color);
+  background-color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 50px;
+}
