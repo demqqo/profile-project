@@ -38,6 +38,10 @@ nav .actives {
 nav li {
   margin-left: 60px;
 }
+.background {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+}
 .logo {
   max-height: 40px;
 }
@@ -76,7 +80,10 @@ nav li {
   height: 560px;
   width: auto;
 }
-
+.my-projects h3 {
+  font-size: 64px;
+  line-height: 100px;
+}
 .my-projects h2 {
   font-size: 64px;
   line-height: 200px;
@@ -84,6 +91,7 @@ nav li {
 .my-projects .content {
   margin: 20px 80px;
 }
+
 .my-projects a {
   color: var(--branding-color);
   border-color: var(--branding-color);
