@@ -25,7 +25,7 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
 }
-nav {
+.main-page {
   background-color: var(--secondary-color);
   font-family: var(--default-font-family);
   font-size: 16px;
@@ -80,6 +80,9 @@ nav li {
   height: 560px;
   width: auto;
 }
+.my-projects h4 {
+  font-family: var(--default-font-family);
+}
 .my-projects h3 {
   font-size: 64px;
   line-height: 100px;
@@ -128,9 +131,10 @@ nav li {
   .my-projects a {
     background-color: var(--secondary-color);
   }
-  .my-projects h2 {
+  .my-projects h2,
+  h3 {
     font-size: 32px;
-    line-height: 48px;
+    line-height: 32px;
   }
   .hero p {
     font-size: 24px;
