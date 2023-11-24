@@ -42,6 +42,31 @@ nav li {
   background-color: var(--secondary-color);
   border-radius: 20px;
 }
+.work-inquiry-field {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 20px 0px 20px auto;
+}
+.work-inquiry-button {
+  text-decoration: double;
+  border: solid 1px;
+  background-color: white;
+  border-radius: 4px;
+  border-color: var(--branding-color);
+  font-size: 18px;
+  text-align: center;
+  line-height: 27px;
+  padding: 15px 0px 11px 0px;
+  margin-top: 50px;
+}
+.work-inquiry-button a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+.work-inquiry-field h3 {
+  font-size: 64px;
+  line-height: 100px;
+}
 .logo {
   max-height: 40px;
 }
@@ -74,7 +99,9 @@ nav li {
   text-align: center;
   margin: 60px 0 60px;
 }
-
+.content p {
+  padding: 41px 55px 9px;
+}
 .my-projects img {
   width: 560px;
   height: 560px;
@@ -90,6 +117,7 @@ nav li {
 .my-projects h2 {
   font-size: 64px;
   line-height: 200px;
+  text-align: center;
 }
 .my-projects .content {
   margin: 20px 80px;
@@ -103,7 +131,7 @@ nav li {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  margin-top: 50px;
+  margin: 0px 0px 0px 200px;
 }
 .works img {
   width: 560px;
@@ -136,23 +164,26 @@ nav li {
     background-color: var(--secondary-color);
     border-radius: 20px;
   }
+  .my-projects p {
+    text-align: center;
+    padding: 28px 0px 18px 0px;
+  }
   .my-projects a {
     background-color: var(--secondary-color);
+    margin: 50px 0px 0px 30px;
   }
-  .my-projects h2,
-  h3 {
-    font-size: 32px;
-    line-height: 32px;
-  }
-  .hero p {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-  }
-  .content {
-    text-align: center;
-  }
-  .hero {
-    padding: 80px 20px;
-  }
+}
+.my-projects h2,
+h3 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero {
+  padding: 80px 20px;
 }
